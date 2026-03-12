@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+sample.pdf
+sample.xml
+sample.md
+sample.index.json
+
+.DS_Store
