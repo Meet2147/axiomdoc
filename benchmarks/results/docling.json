@@ -1,0 +1,54 @@
+{
+  "dataset_dir": "benchmarks/datasets/pdfs",
+  "libraries": [
+    {
+      "library": "docling",
+      "documents": [
+        {
+          "document": "attention-is-all-you-need.pdf",
+          "pages": 15,
+          "runtime_seconds": 26.759782166998775,
+          "seconds_per_page": 1.7839854777999185,
+          "xml_well_formed": true,
+          "markdown_chars": 48967,
+          "heading_count": 27,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document": "orimi-test.pdf",
+          "pages": 1,
+          "runtime_seconds": 1.6584182919978048,
+          "seconds_per_page": 1.6584182919978048,
+          "xml_well_formed": true,
+          "markdown_chars": 386,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document": "w3c-dummy.pdf",
+          "pages": 1,
+          "runtime_seconds": 1.1917499170012888,
+          "seconds_per_page": 1.1917499170012888,
+          "xml_well_formed": true,
+          "markdown_chars": 17,
+          "heading_count": 1,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "success_rate": 1.0,
+        "median_seconds_per_page": 1.6584182919978048,
+        "xml_well_formed_rate": 1.0,
+        "median_markdown_chars": 386,
+        "median_heading_count": 1,
+        "median_chunk_count": 0
+      }
+    }
+  ]
+}
