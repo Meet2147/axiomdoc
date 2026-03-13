@@ -2,85 +2,102 @@
   <rect width="1200" height="760" rx="24" fill="#07111F"/>
   <text x="36" y="58" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Evaluation</text>
   <line x1="36" y1="84" x2="1164" y2="84" stroke="#334155" stroke-width="2"/>
+  <text x="36" y="110" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">1076 PDFs, 13,594 total pages, full-corpus results for AXIOMDoc, PyMuPDF raw, and pdfplumber.</text>
 
-  <rect x="36" y="108" width="548" height="286" rx="16" fill="#2A2F38"/>
-  <rect x="616" y="108" width="548" height="286" rx="16" fill="#2A2F38"/>
-  <rect x="36" y="426" width="548" height="286" rx="16" fill="#2A2F38"/>
-  <rect x="616" y="426" width="548" height="286" rx="16" fill="#2A2F38"/>
+  <rect x="36" y="132" width="548" height="286" rx="16" fill="#2A2F38"/>
+  <rect x="616" y="132" width="548" height="286" rx="16" fill="#2A2F38"/>
+  <rect x="36" y="442" width="548" height="286" rx="16" fill="#2A2F38"/>
+  <rect x="616" y="442" width="548" height="286" rx="16" fill="#2A2F38"/>
 
-  <text x="68" y="164" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Heading Recovery ↑</text>
-  <text x="68" y="198" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median markdown heading count across 3 public PDFs.</text>
-  <text x="120" y="255" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
-  <rect x="244" y="236" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="236" width="250" height="26" rx="5" fill="#7DD3FC"/>
-  <text x="512" y="255" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">1</text>
-  <text x="141" y="295" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
-  <rect x="244" y="276" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="276" width="250" height="26" rx="5" fill="#38BDF8"/>
-  <text x="512" y="295" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">1</text>
-  <text x="107" y="335" fill="#94A3B8" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
-  <rect x="244" y="316" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="316" width="0" height="26" rx="5" fill="#94A3B8"/>
-  <text x="512" y="335" fill="#94A3B8" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
-  <text x="122" y="375" fill="#94A3B8" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
-  <rect x="244" y="356" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="356" width="0" height="26" rx="5" fill="#94A3B8"/>
-  <text x="512" y="375" fill="#94A3B8" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
+  <text x="68" y="188" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Heading Recovery ↑</text>
+  <text x="68" y="222" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median markdown heading count across the 1076-PDF corpus.</text>
 
-  <text x="648" y="164" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Runtime / Page ↓</text>
-  <text x="648" y="198" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median seconds per page on the same machine. Lower is better.</text>
-  <text x="700" y="255" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
-  <rect x="850" y="236" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="236" width="2" height="26" rx="5" fill="#F59E0B"/>
-  <text x="1114" y="255" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0.0112</text>
-  <text x="721" y="295" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
-  <rect x="850" y="276" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="276" width="250" height="26" rx="5" fill="#FB923C"/>
-  <text x="1114" y="295" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">1.6584</text>
-  <text x="687" y="335" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
-  <rect x="850" y="316" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="316" width="1" height="26" rx="5" fill="#CBD5E1"/>
-  <text x="1114" y="335" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0.0015</text>
-  <text x="702" y="375" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
-  <rect x="850" y="356" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="356" width="2" height="26" rx="5" fill="#CBD5E1"/>
-  <text x="1114" y="375" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0.0156</text>
+  <text x="120" y="279" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
+  <rect x="244" y="260" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="260" width="250" height="26" rx="5" fill="#7DD3FC"/>
+  <text x="512" y="279" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">5</text>
 
-  <text x="68" y="482" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Markdown Yield ↑</text>
-  <text x="68" y="516" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median markdown character count across 3 public PDFs.</text>
-  <text x="120" y="573" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
-  <rect x="244" y="554" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="554" width="247" height="26" rx="5" fill="#34D399"/>
-  <text x="512" y="573" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">386</text>
-  <text x="141" y="613" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
-  <rect x="244" y="594" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="594" width="247" height="26" rx="5" fill="#6EE7B7"/>
-  <text x="512" y="613" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">386</text>
-  <text x="107" y="653" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
-  <rect x="244" y="634" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="634" width="250" height="26" rx="5" fill="#A3A3A3"/>
-  <text x="512" y="653" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">390</text>
-  <text x="122" y="693" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
-  <rect x="244" y="674" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="244" y="674" width="234" height="26" rx="5" fill="#A3A3A3"/>
-  <text x="512" y="693" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">365</text>
+  <text x="107" y="319" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
+  <rect x="244" y="300" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="300" width="0" height="26" rx="5" fill="#94A3B8"/>
+  <text x="512" y="319" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
 
-  <text x="648" y="482" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">RAG Chunk Yield ↑</text>
-  <text x="648" y="516" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median chunk count from the exported index manifest.</text>
-  <text x="700" y="573" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
-  <rect x="850" y="554" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="554" width="250" height="26" rx="5" fill="#C084FC"/>
-  <text x="1114" y="573" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">3</text>
-  <text x="721" y="613" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
-  <rect x="850" y="594" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="594" width="0" height="26" rx="5" fill="#CBD5E1"/>
-  <text x="1114" y="613" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
-  <text x="687" y="653" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
-  <rect x="850" y="634" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="634" width="0" height="26" rx="5" fill="#CBD5E1"/>
-  <text x="1114" y="653" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
-  <text x="702" y="693" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
-  <rect x="850" y="674" width="250" height="26" rx="5" fill="#52525B"/>
-  <rect x="850" y="674" width="0" height="26" rx="5" fill="#CBD5E1"/>
-  <text x="1114" y="693" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
+  <text x="122" y="359" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
+  <rect x="244" y="340" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="340" width="0" height="26" rx="5" fill="#94A3B8"/>
+  <text x="512" y="359" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
+
+  <text x="141" y="399" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
+  <rect x="244" y="380" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="380" width="0" height="26" rx="5" fill="#FB923C"/>
+  <text x="512" y="399" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pending</text>
+
+  <text x="648" y="188" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Runtime / Page ↓</text>
+  <text x="648" y="222" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median seconds per page. Lower is better.</text>
+
+  <text x="700" y="279" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
+  <rect x="850" y="260" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="260" width="51" height="26" rx="5" fill="#F59E0B"/>
+  <text x="1114" y="279" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0.0151</text>
+
+  <text x="687" y="319" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
+  <rect x="850" y="300" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="300" width="9" height="26" rx="5" fill="#D1D5DB"/>
+  <text x="1114" y="319" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0.0028</text>
+
+  <text x="702" y="359" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
+  <rect x="850" y="340" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="340" width="250" height="26" rx="5" fill="#A3A3A3"/>
+  <text x="1114" y="359" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0.0741</text>
+
+  <text x="721" y="399" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
+  <rect x="850" y="380" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="380" width="0" height="26" rx="5" fill="#FB923C"/>
+  <text x="1114" y="399" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pending</text>
+
+  <text x="68" y="498" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Markdown Yield ↑</text>
+  <text x="68" y="532" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median markdown character count across the 1076-PDF corpus.</text>
+
+  <text x="120" y="589" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
+  <rect x="244" y="570" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="570" width="250" height="26" rx="5" fill="#34D399"/>
+  <text x="512" y="589" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">5009</text>
+
+  <text x="107" y="629" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
+  <rect x="244" y="610" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="610" width="218" height="26" rx="5" fill="#A3A3A3"/>
+  <text x="512" y="629" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">4369</text>
+
+  <text x="122" y="669" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
+  <rect x="244" y="650" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="650" width="215" height="26" rx="5" fill="#A3A3A3"/>
+  <text x="512" y="669" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">4316.5</text>
+
+  <text x="141" y="709" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
+  <rect x="244" y="690" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="244" y="690" width="0" height="26" rx="5" fill="#6EE7B7"/>
+  <text x="512" y="709" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pending</text>
+
+  <text x="648" y="498" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">RAG Chunk Yield ↑</text>
+  <text x="648" y="532" fill="#94A3B8" font-family="Courier New, monospace" font-size="14">Median chunk count from the exported index manifest.</text>
+
+  <text x="700" y="589" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">AXIOMDoc</text>
+  <rect x="850" y="570" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="570" width="250" height="26" rx="5" fill="#C084FC"/>
+  <text x="1114" y="589" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">17</text>
+
+  <text x="687" y="629" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">PyMuPDF raw</text>
+  <rect x="850" y="610" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="610" width="0" height="26" rx="5" fill="#CBD5E1"/>
+  <text x="1114" y="629" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
+
+  <text x="702" y="669" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pdfplumber</text>
+  <rect x="850" y="650" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="650" width="0" height="26" rx="5" fill="#CBD5E1"/>
+  <text x="1114" y="669" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">0</text>
+
+  <text x="721" y="709" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Docling</text>
+  <rect x="850" y="690" width="250" height="26" rx="5" fill="#52525B"/>
+  <rect x="850" y="690" width="0" height="26" rx="5" fill="#CBD5E1"/>
+  <text x="1114" y="709" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">pending</text>
 </svg>
