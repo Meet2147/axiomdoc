@@ -2,10 +2,12 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from axiomdoc.parsers.docx import DocxParser
 from axiomdoc.parsers.base import ParserBackend
 from axiomdoc.parsers.placeholders import PlaceholderParser
 from axiomdoc.parsers.pdf import PdfParser
 from axiomdoc.parsers.stub import PlainTextFallbackParser
+from axiomdoc.parsers.xlsx import XlsxParser
 from axiomdoc.parsers.xml import XmlParser
 
 
@@ -13,10 +15,15 @@ class ParserRegistry:
     def __init__(self, backends: list[ParserBackend] | None = None) -> None:
         self.backends = backends or [
             PdfParser(),
+            DocxParser(),
+            XlsxParser(),
             XmlParser(),
             PlainTextFallbackParser(),
-            PlaceholderParser("docx-placeholder", (".docx", ".doc"), "install the future 'docx' extra powered by python-docx and conversion bridges"),
-            PlaceholderParser("xlsx-placeholder", (".xlsx", ".xls"), "install the future 'xlsx' extra powered by openpyxl"),
+            PlaceholderParser(
+                "doc-placeholder",
+                (".doc", ".xls"),
+                "legacy DOC/XLS formats still require a conversion bridge before parsing",
+            ),
         ]
 
     def resolve(self, path: Path) -> ParserBackend:

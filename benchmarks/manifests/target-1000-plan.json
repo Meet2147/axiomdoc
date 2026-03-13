@@ -1,0 +1,23 @@
+{
+  "target_document_count": 1000,
+  "doc_type_targets": {
+    "pdf": 500,
+    "docx": 200,
+    "xlsx": 100,
+    "xml": 100,
+    "html": 50,
+    "txt": 50
+  },
+  "label_targets": {
+    "heading_labeled": 250,
+    "table_labeled": 200,
+    "field_labeled": 150
+  },
+  "comparison_libraries": [
+    "axiomdoc",
+    "docling",
+    "pdfplumber",
+    "pymupdf_raw",
+    "raw_text"
+  ]
+}

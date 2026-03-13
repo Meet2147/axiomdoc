@@ -3,8 +3,9 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 import re
-
-import fitz
+import shutil
+import subprocess
+import tempfile
 
 from axiomdoc.models import Block, BoundingBox, CanonicalDocument
 from axiomdoc.parsers.base import ParserBackend
@@ -15,6 +16,16 @@ class PdfParser(ParserBackend):
     supported_suffixes = (".pdf",)
 
     def parse(self, path: Path) -> CanonicalDocument:
+        try:
+            import fitz
+        except ImportError as exc:
+            raise RuntimeError("PDF parsing requires PyMuPDF. Install 'axiomdoc[pdf]' or 'axiomdoc[full]'.") from exc
+
+        if not hasattr(fitz, "open"):
+            raise RuntimeError(
+                "Imported 'fitz' is not PyMuPDF. Uninstall the unrelated 'fitz' package and install 'PyMuPDF'."
+            )
+
         document = CanonicalDocument.empty(path, source_format="pdf", parser_name=self.name)
 
         with fitz.open(path) as pdf:
@@ -22,6 +33,7 @@ class PdfParser(ParserBackend):
             outline_levels = self._build_outline_map(pdf)
             base_font_size = self._infer_base_font_size(pdf)
             block_counter = 1
+            extracted_any_text = False
 
             for page_index, page in enumerate(pdf, start=1):
                 page_dict = page.get_text("dict")
@@ -33,6 +45,7 @@ class PdfParser(ParserBackend):
                     if not text:
                         continue
 
+                    extracted_any_text = True
                     heading_level = self._detect_heading_level(text, font_size, flags, base_font_size, outline_levels)
                     kind = "heading" if heading_level is not None else "paragraph"
                     bbox = self._bbox_for_block(block, page_index)
@@ -53,10 +66,27 @@ class PdfParser(ParserBackend):
                     )
                     block_counter += 1
 
+                if not any(b.page_number == page_index for b in document.blocks):
+                    ocr_text = self._ocr_page(page)
+                    if ocr_text:
+                        extracted_any_text = True
+                        document.blocks.append(
+                            Block(
+                                block_id=f"p{page_index}-ocr",
+                                kind="paragraph",
+                                text=ocr_text,
+                                page_number=page_index,
+                                metadata={"ocr": True},
+                            )
+                        )
+
+            if not extracted_any_text:
+                document.metadata["ocr_attempted"] = True
+
         return document
 
     @staticmethod
-    def _load_metadata(pdf: fitz.Document, document: CanonicalDocument) -> None:
+    def _load_metadata(pdf: object, document: CanonicalDocument) -> None:
         metadata = {key: value for key, value in (pdf.metadata or {}).items() if value}
         document.metadata.update(metadata)
         document.metadata["page_count"] = pdf.page_count
@@ -64,7 +94,7 @@ class PdfParser(ParserBackend):
             document.metadata["title"] = metadata["title"]
 
     @staticmethod
-    def _build_outline_map(pdf: fitz.Document) -> dict[str, int]:
+    def _build_outline_map(pdf: object) -> dict[str, int]:
         outline_map: dict[str, int] = {}
         for level, title, page_number, *_ in pdf.get_toc(simple=False):
             if not title:
@@ -75,7 +105,7 @@ class PdfParser(ParserBackend):
         return outline_map
 
     @staticmethod
-    def _infer_base_font_size(pdf: fitz.Document) -> float:
+    def _infer_base_font_size(pdf: object) -> float:
         sizes: Counter[float] = Counter()
         for page in pdf:
             page_dict = page.get_text("dict")
@@ -167,3 +197,29 @@ class PdfParser(ParserBackend):
     def _normalize_text(text: str) -> str:
         collapsed = " ".join(text.split()).strip().casefold()
         return re.sub(r"\s+", " ", collapsed)
+
+    @staticmethod
+    def _ocr_page(page: object) -> str:
+        tesseract_path = shutil.which("tesseract")
+        if not tesseract_path:
+            return ""
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            image_path = Path(tmpdir) / "page.png"
+            output_prefix = Path(tmpdir) / "ocr"
+            pixmap = page.get_pixmap(dpi=200, alpha=False)
+            pixmap.save(str(image_path))
+
+            result = subprocess.run(
+                [tesseract_path, str(image_path), str(output_prefix), "--psm", "6"],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            if result.returncode != 0:
+                return ""
+
+            text_path = output_prefix.with_suffix(".txt")
+            if not text_path.exists():
+                return ""
+            return text_path.read_text(encoding="utf-8", errors="ignore").strip()

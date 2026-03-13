@@ -4,12 +4,15 @@ build-backend = "hatchling.build"
 
 [project]
 name = "axiomdoc"
-version = "0.1.0"
+version = "1.0.1"
 description = "Open-source document intelligence for extraction, structure preservation, XML export, and RAG indexing."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
+  { name = "Meet Jethwa" }
+]
+maintainers = [
   { name = "Meet Jethwa" }
 ]
 keywords = [
@@ -22,7 +25,7 @@ keywords = [
   "information-extraction"
 ]
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 5 - Production/Stable",
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
@@ -34,9 +37,15 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/Meet2147/axiomdoc"
+Repository = "https://github.com/Meet2147/axiomdoc.git"
+Issues = "https://github.com/Meet2147/axiomdoc/issues"
+
 [project.optional-dependencies]
 pdf = [
   "pymupdf>=1.25.0",
+  "pillow>=10.4.0",
 ]
 docx = [
   "python-docx>=1.1.2",
@@ -49,13 +58,26 @@ xml = [
 ]
 full = [
   "pymupdf>=1.25.0",
+  "pillow>=10.4.0",
   "python-docx>=1.1.2",
   "openpyxl>=3.1.5",
   "lxml>=5.3.0",
 ]
+dev = [
+  "pytest>=8.3.0",
+]
 
 [project.scripts]
 axiomdoc = "axiomdoc.cli:main"
+
+[tool.hatch.build]
+include = [
+  "src/axiomdoc/**/*.py",
+  "README.md",
+  "LICENSE",
+  "docs/**",
+  "assets/**",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/axiomdoc"]
@@ -64,6 +86,12 @@ packages = ["src/axiomdoc"]
 include = [
   "/src",
   "/README.md",
+  "/LICENSE",
+  "/assets",
   "/docs",
+  "/tests",
   "/pyproject.toml"
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

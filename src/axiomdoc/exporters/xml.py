@@ -53,9 +53,22 @@ def _append_block(parent: Element, block: Block) -> None:
     text_el = SubElement(block_el, "text")
     text_el.text = _sanitize_xml_text(block.text)
 
+    table_rows = block.metadata.get("table_rows")
+    if block.kind == "table" and isinstance(table_rows, list):
+        table_el = SubElement(block_el, "table")
+        for row in table_rows:
+            if not isinstance(row, list):
+                continue
+            row_el = SubElement(table_el, "row")
+            for cell in row:
+                cell_el = SubElement(row_el, "cell")
+                cell_el.text = _sanitize_xml_text(str(cell))
+
     if block.metadata:
         meta_el = SubElement(block_el, "metadata")
         for key, value in sorted(block.metadata.items()):
+            if key == "table_rows":
+                continue
             item = SubElement(meta_el, "field", attrib={"name": _sanitize_xml_text(str(key))})
             item.text = _sanitize_xml_text(str(value))
 

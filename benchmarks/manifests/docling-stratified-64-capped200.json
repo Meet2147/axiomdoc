@@ -1,0 +1,516 @@
+{
+  "documents": [
+    {
+      "document_id": "22ZOCVPAF2GSGXR357RM7UT4Z22RS2LH",
+      "path": "Pdf/22ZOCVPAF2GSGXR357RM7UT4Z22RS2LH.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "47HBHTDSTAKCJIYQ22345FHWVNVJMXJL",
+      "path": "Pdf/47HBHTDSTAKCJIYQ22345FHWVNVJMXJL.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "6OV4KF7OC77SI4QQ6W5MKPRKLFKJFMSA",
+      "path": "Pdf/6OV4KF7OC77SI4QQ6W5MKPRKLFKJFMSA.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "AEDZUJF6HFEQUC3GZMVSC5EVDPBEJ7TF",
+      "path": "Pdf/AEDZUJF6HFEQUC3GZMVSC5EVDPBEJ7TF.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "BTV7FPFDLIGZEEUQ3ODJ2J7BJ57HJXTG",
+      "path": "Pdf/BTV7FPFDLIGZEEUQ3ODJ2J7BJ57HJXTG.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "DG45DWPFVSPLLJLFUHTJUGTYNSX7WEMF",
+      "path": "Pdf/DG45DWPFVSPLLJLFUHTJUGTYNSX7WEMF.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "EVWZKEBEBK3TDSK3VC4AHQKSNXD6FBWI",
+      "path": "Pdf/EVWZKEBEBK3TDSK3VC4AHQKSNXD6FBWI.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "GBMOB4WD5UEJPVB2OTTQNMICMOP3PG4R",
+      "path": "Pdf/GBMOB4WD5UEJPVB2OTTQNMICMOP3PG4R.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "HPXULDFI3DAZ3V2NZOHYUGUY5SLS4AHU",
+      "path": "Pdf/HPXULDFI3DAZ3V2NZOHYUGUY5SLS4AHU.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "J6KG3WLCIJ3FRU6V6N7LLHD46F2CBEWE",
+      "path": "Pdf/J6KG3WLCIJ3FRU6V6N7LLHD46F2CBEWE.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "KJRNBHQZEAPZL7FXVKBGPEN45LKGPLGM",
+      "path": "Pdf/KJRNBHQZEAPZL7FXVKBGPEN45LKGPLGM.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "LLMXYLFSHQA3ZZUSNU4HCBJQ24N7LH6U",
+      "path": "Pdf/LLMXYLFSHQA3ZZUSNU4HCBJQ24N7LH6U.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "N5GFTLPS4OEGG4YIMC7RDPYUGTPLZIIC",
+      "path": "Pdf/N5GFTLPS4OEGG4YIMC7RDPYUGTPLZIIC.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "OMIUL266TMW75QUBWV2CUTRL56PSFGDK",
+      "path": "Pdf/OMIUL266TMW75QUBWV2CUTRL56PSFGDK.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "QDXB4QXFTS2ZBLD4UC23EGQ4SGJITFII",
+      "path": "Pdf/QDXB4QXFTS2ZBLD4UC23EGQ4SGJITFII.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "RXWB2L774DLDJ56PA7LYGA4DYUUA3FBE",
+      "path": "Pdf/RXWB2L774DLDJ56PA7LYGA4DYUUA3FBE.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "SUMLKDI5IC2PYJY6ANGU6KYA37YZLFAD",
+      "path": "Pdf/SUMLKDI5IC2PYJY6ANGU6KYA37YZLFAD.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "U477BYZ62U5WAU5AK5HEDGW4FH75NBCH",
+      "path": "Pdf/U477BYZ62U5WAU5AK5HEDGW4FH75NBCH.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "VNZEGOMTXDKSPERNHPU3VMN43NSCVFBI",
+      "path": "Pdf/VNZEGOMTXDKSPERNHPU3VMN43NSCVFBI.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "WXR2YY3TSXGUNVC2VECKTVIJO7PMECRS",
+      "path": "Pdf/WXR2YY3TSXGUNVC2VECKTVIJO7PMECRS.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "YJW37FHX43WFG327VZASKGXCUC3DH55F",
+      "path": "Pdf/YJW37FHX43WFG327VZASKGXCUC3DH55F.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "2F73J4NP2YHKVISKHDIDJ7RGPDKTQZ7D",
+      "path": "Pdf/2F73J4NP2YHKVISKHDIDJ7RGPDKTQZ7D.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "4MXIGGV3UCFRYPPPQ4LGGB27K42PFGQV",
+      "path": "Pdf/4MXIGGV3UCFRYPPPQ4LGGB27K42PFGQV.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "7WOCAN6T6B5JRJB4C5LAIHLE6ERU2V22",
+      "path": "Pdf/7WOCAN6T6B5JRJB4C5LAIHLE6ERU2V22.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "CUF7M7BNFDH3UZPGBG55JYJHN4LVA3CP",
+      "path": "Pdf/CUF7M7BNFDH3UZPGBG55JYJHN4LVA3CP.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "GIG4KPPQWOAJKUY3724CODP2WSX5I2GF",
+      "path": "Pdf/GIG4KPPQWOAJKUY3724CODP2WSX5I2GF.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "IO77HAUREG5W6P2DKSLD5HBNNDJU5SQI",
+      "path": "Pdf/IO77HAUREG5W6P2DKSLD5HBNNDJU5SQI.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "L25T3UJ2GCRQ5HZHAEKUSBDG3PSJV3CX",
+      "path": "Pdf/L25T3UJ2GCRQ5HZHAEKUSBDG3PSJV3CX.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "NFLMOWBSAYHS4IFKAY5KSXU64BTAEZJ3",
+      "path": "Pdf/NFLMOWBSAYHS4IFKAY5KSXU64BTAEZJ3.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "PKJ5POOU72UUDAUOETQSQZUNHVOWUZZK",
+      "path": "Pdf/PKJ5POOU72UUDAUOETQSQZUNHVOWUZZK.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "RHPH4OMXIVY3KFVPJQZYY5EH4MEK5YD6",
+      "path": "Pdf/RHPH4OMXIVY3KFVPJQZYY5EH4MEK5YD6.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "TW5273JZ43VOQUCL7FRZ2N6STHYBBCQ4",
+      "path": "Pdf/TW5273JZ43VOQUCL7FRZ2N6STHYBBCQ4.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "W6DBVMTHBXFF4YFGTJVKRJAR2LFCJRI2",
+      "path": "Pdf/W6DBVMTHBXFF4YFGTJVKRJAR2LFCJRI2.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "Z4MKPGHSBSWXQDAPTZGIXYMGFXIGJQOV",
+      "path": "Pdf/Z4MKPGHSBSWXQDAPTZGIXYMGFXIGJQOV.pdf",
+      "doc_type": "pdf",
+      "pages": 2,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "4VMUKG4TIVAVUP5H4SRGXIJZUWERU7I2",
+      "path": "Pdf/4VMUKG4TIVAVUP5H4SRGXIJZUWERU7I2.pdf",
+      "doc_type": "pdf",
+      "pages": 3,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "CEANMN5G6I4ISNFSTYEX44YCLQ52GWCV",
+      "path": "Pdf/CEANMN5G6I4ISNFSTYEX44YCLQ52GWCV.pdf",
+      "doc_type": "pdf",
+      "pages": 3,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "KL6VJRI6EUVHA6S4QIIZ76GT5VIPPD5Y",
+      "path": "Pdf/KL6VJRI6EUVHA6S4QIIZ76GT5VIPPD5Y.pdf",
+      "doc_type": "pdf",
+      "pages": 3,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "SWXZRJNZF6T5KP5U5WKDXL45TU34G632",
+      "path": "Pdf/SWXZRJNZF6T5KP5U5WKDXL45TU34G632.pdf",
+      "doc_type": "pdf",
+      "pages": 3,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "c386176749094cb9a148745186bf6a52c2e167ca",
+      "path": "Pdf/c386176749094cb9a148745186bf6a52c2e167ca.pdf",
+      "doc_type": "pdf",
+      "pages": 3,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "7096e75ab6e07bb7950205a526f70af2024a802a",
+      "path": "Pdf/7096e75ab6e07bb7950205a526f70af2024a802a.pdf",
+      "doc_type": "pdf",
+      "pages": 4,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "HVP5WMRFWBOCTMMV6NC57S2QJ674CGXG",
+      "path": "Pdf/HVP5WMRFWBOCTMMV6NC57S2QJ674CGXG.pdf",
+      "doc_type": "pdf",
+      "pages": 4,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "ROKL4YZJZ5THXZULOIWSNKWSB4ZTWZV5",
+      "path": "Pdf/ROKL4YZJZ5THXZULOIWSNKWSB4ZTWZV5.pdf",
+      "doc_type": "pdf",
+      "pages": 4,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "da385f63329c4f7d3cc876d5e2897a685db40ac2",
+      "path": "Pdf/da385f63329c4f7d3cc876d5e2897a685db40ac2.pdf",
+      "doc_type": "pdf",
+      "pages": 4,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "7IYBO6EFOFMF4ETCCIZYJEGPTBQY3EE5",
+      "path": "Pdf/7IYBO6EFOFMF4ETCCIZYJEGPTBQY3EE5.pdf",
+      "doc_type": "pdf",
+      "pages": 5,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "ODFH5YT72ZKNG6YGIOKCH67FDHEFFFM3",
+      "path": "Pdf/ODFH5YT72ZKNG6YGIOKCH67FDHEFFFM3.pdf",
+      "doc_type": "pdf",
+      "pages": 5,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "e42ff10674f4d5964879848ad96abe31cb6b1ebf",
+      "path": "Pdf/e42ff10674f4d5964879848ad96abe31cb6b1ebf.pdf",
+      "doc_type": "pdf",
+      "pages": 5,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "9e6045a3ee13c27de6bd14c7fe85cef8f7a28fbf",
+      "path": "Pdf/9e6045a3ee13c27de6bd14c7fe85cef8f7a28fbf.pdf",
+      "doc_type": "pdf",
+      "pages": 6,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "KAI53AEUTC4X3GRV6WZDEZUWVEYPTPPU",
+      "path": "Pdf/KAI53AEUTC4X3GRV6WZDEZUWVEYPTPPU.pdf",
+      "doc_type": "pdf",
+      "pages": 6,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "b705ad3e556b7f152b8ada00da4cb55994262d76",
+      "path": "Pdf/b705ad3e556b7f152b8ada00da4cb55994262d76.pdf",
+      "doc_type": "pdf",
+      "pages": 6,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "O6J6V2EMM75WZRVVG7E7KUD2QRK33JDO",
+      "path": "Pdf/O6J6V2EMM75WZRVVG7E7KUD2QRK33JDO.pdf",
+      "doc_type": "pdf",
+      "pages": 7,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "2WE4HZPD57KVPL4RQKCB4PUG42SQ2RMJ",
+      "path": "Pdf/2WE4HZPD57KVPL4RQKCB4PUG42SQ2RMJ.pdf",
+      "doc_type": "pdf",
+      "pages": 8,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "dd96e25d23e1d5ccbe54d07c77fc52ae10d1dae9",
+      "path": "Pdf/dd96e25d23e1d5ccbe54d07c77fc52ae10d1dae9.pdf",
+      "doc_type": "pdf",
+      "pages": 8,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "IYUNRQPMTREBOTPIQVJVWLOXDYVFY7PH",
+      "path": "Pdf/IYUNRQPMTREBOTPIQVJVWLOXDYVFY7PH.pdf",
+      "doc_type": "pdf",
+      "pages": 9,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "D4FEEQXJJDKXQ2NSXGTBKS64QRHHP65I",
+      "path": "Pdf/D4FEEQXJJDKXQ2NSXGTBKS64QRHHP65I.pdf",
+      "doc_type": "pdf",
+      "pages": 10,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "UZ24VCW32BGC524CZI3QWY7LKJJXZ2ZZ",
+      "path": "Pdf/UZ24VCW32BGC524CZI3QWY7LKJJXZ2ZZ.pdf",
+      "doc_type": "pdf",
+      "pages": 11,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "VJRDAXENL7KN3L7MPL2ARVWNE6YOL5PU",
+      "path": "Pdf/VJRDAXENL7KN3L7MPL2ARVWNE6YOL5PU.pdf",
+      "doc_type": "pdf",
+      "pages": 12,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "XMW6SGXOJREQ4QRTL4QUIV76ZB4733MN",
+      "path": "Pdf/XMW6SGXOJREQ4QRTL4QUIV76ZB4733MN.pdf",
+      "doc_type": "pdf",
+      "pages": 14,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "2a85b52768ea5761b773be49b09d15f0b95415b0",
+      "path": "Pdf/2a85b52768ea5761b773be49b09d15f0b95415b0.pdf",
+      "doc_type": "pdf",
+      "pages": 19,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "ZYUTCEHUM7TZDJS75XRY72MWSWNR2QPF",
+      "path": "Pdf/ZYUTCEHUM7TZDJS75XRY72MWSWNR2QPF.pdf",
+      "doc_type": "pdf",
+      "pages": 22,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "X3TAMFMWC3XPXVVNEVQVEKRWH7NDDESN",
+      "path": "Pdf/X3TAMFMWC3XPXVVNEVQVEKRWH7NDDESN.pdf",
+      "doc_type": "pdf",
+      "pages": 28,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "MDWBAX6CXSTHPF6GJ7XEWLH2YBTBGR46",
+      "path": "Pdf/MDWBAX6CXSTHPF6GJ7XEWLH2YBTBGR46.pdf",
+      "doc_type": "pdf",
+      "pages": 38,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "UKNH3OQ2LY6SZKEQ7ITIOEHER4BHZEEN",
+      "path": "Pdf/UKNH3OQ2LY6SZKEQ7ITIOEHER4BHZEEN.pdf",
+      "doc_type": "pdf",
+      "pages": 56,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "3RCHLDD2YCPDNLHEV4AVKEPBYJP5UBZB",
+      "path": "Pdf/3RCHLDD2YCPDNLHEV4AVKEPBYJP5UBZB.pdf",
+      "doc_type": "pdf",
+      "pages": 101,
+      "labels": {},
+      "source": "local-scan"
+    },
+    {
+      "document_id": "JFUKR5IZBGDNDWX75DHLDWK323RQOXPB",
+      "path": "Pdf/JFUKR5IZBGDNDWX75DHLDWK323RQOXPB.pdf",
+      "doc_type": "pdf",
+      "pages": 194,
+      "labels": {},
+      "source": "local-scan"
+    }
+  ]
+}

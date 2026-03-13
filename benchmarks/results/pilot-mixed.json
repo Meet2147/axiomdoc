@@ -1,0 +1,277 @@
+{
+  "manifest": "benchmarks/manifests/pilot-mixed.json",
+  "document_count": 3,
+  "doc_type_counts": {
+    "pdf": 3
+  },
+  "libraries": [
+    {
+      "library": "axiomdoc",
+      "documents": [
+        {
+          "document_id": "attention-is-all-you-need",
+          "document": "attention-is-all-you-need.pdf",
+          "doc_type": "pdf",
+          "pages": 15,
+          "runtime_seconds": 0.5072186670004157,
+          "seconds_per_page": 0.033814577800027716,
+          "xml_well_formed": true,
+          "markdown_chars": 40594,
+          "heading_count": 38,
+          "chunk_count": 447,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "orimi-test",
+          "document": "orimi-test.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 0.012546291996841319,
+          "seconds_per_page": 0.012546291996841319,
+          "xml_well_formed": true,
+          "markdown_chars": 386,
+          "heading_count": 1,
+          "chunk_count": 3,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "w3c-dummy",
+          "document": "w3c-dummy.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 0.0013561249943450093,
+          "seconds_per_page": 0.0013561249943450093,
+          "xml_well_formed": true,
+          "markdown_chars": 17,
+          "heading_count": 1,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "document_count": 3,
+        "success_rate": 1.0,
+        "median_seconds_per_page": 0.012546291996841319,
+        "xml_well_formed_rate": 1.0,
+        "median_markdown_chars": 386,
+        "median_heading_count": 1,
+        "median_chunk_count": 3
+      },
+      "by_doc_type": {
+        "pdf": {
+          "document_count": 3,
+          "success_rate": 1.0,
+          "median_seconds_per_page": 0.012546291996841319,
+          "xml_well_formed_rate": 1.0,
+          "median_markdown_chars": 386,
+          "median_heading_count": 1,
+          "median_chunk_count": 3
+        }
+      }
+    },
+    {
+      "library": "pymupdf_raw",
+      "documents": [
+        {
+          "document_id": "attention-is-all-you-need",
+          "document": "attention-is-all-you-need.pdf",
+          "doc_type": "pdf",
+          "pages": 15,
+          "runtime_seconds": 0.0811892500059912,
+          "seconds_per_page": 0.00541261666706608,
+          "xml_well_formed": true,
+          "markdown_chars": 39512,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "orimi-test",
+          "document": "orimi-test.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 0.0017604579916223884,
+          "seconds_per_page": 0.0017604579916223884,
+          "xml_well_formed": true,
+          "markdown_chars": 390,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "w3c-dummy",
+          "document": "w3c-dummy.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 0.000582750013563782,
+          "seconds_per_page": 0.000582750013563782,
+          "xml_well_formed": true,
+          "markdown_chars": 15,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "document_count": 3,
+        "success_rate": 1.0,
+        "median_seconds_per_page": 0.0017604579916223884,
+        "xml_well_formed_rate": 1.0,
+        "median_markdown_chars": 390,
+        "median_heading_count": 0,
+        "median_chunk_count": 0
+      },
+      "by_doc_type": {
+        "pdf": {
+          "document_count": 3,
+          "success_rate": 1.0,
+          "median_seconds_per_page": 0.0017604579916223884,
+          "xml_well_formed_rate": 1.0,
+          "median_markdown_chars": 390,
+          "median_heading_count": 0,
+          "median_chunk_count": 0
+        }
+      }
+    },
+    {
+      "library": "pdfplumber",
+      "documents": [
+        {
+          "document_id": "attention-is-all-you-need",
+          "document": "attention-is-all-you-need.pdf",
+          "doc_type": "pdf",
+          "pages": 15,
+          "runtime_seconds": 2.1325781250052387,
+          "seconds_per_page": 0.14217187500034925,
+          "xml_well_formed": true,
+          "markdown_chars": 35540,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "orimi-test",
+          "document": "orimi-test.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 0.014885957993101329,
+          "seconds_per_page": 0.014885957993101329,
+          "xml_well_formed": true,
+          "markdown_chars": 365,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "w3c-dummy",
+          "document": "w3c-dummy.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 0.0020829169952776283,
+          "seconds_per_page": 0.0020829169952776283,
+          "xml_well_formed": true,
+          "markdown_chars": 15,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "document_count": 3,
+        "success_rate": 1.0,
+        "median_seconds_per_page": 0.014885957993101329,
+        "xml_well_formed_rate": 1.0,
+        "median_markdown_chars": 365,
+        "median_heading_count": 0,
+        "median_chunk_count": 0
+      },
+      "by_doc_type": {
+        "pdf": {
+          "document_count": 3,
+          "success_rate": 1.0,
+          "median_seconds_per_page": 0.014885957993101329,
+          "xml_well_formed_rate": 1.0,
+          "median_markdown_chars": 365,
+          "median_heading_count": 0,
+          "median_chunk_count": 0
+        }
+      }
+    },
+    {
+      "library": "docling",
+      "documents": [
+        {
+          "document_id": "attention-is-all-you-need",
+          "document": "attention-is-all-you-need.pdf",
+          "doc_type": "pdf",
+          "pages": 15,
+          "runtime_seconds": 27.299567417008802,
+          "seconds_per_page": 1.8199711611339202,
+          "xml_well_formed": true,
+          "markdown_chars": 48967,
+          "heading_count": 27,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "orimi-test",
+          "document": "orimi-test.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 1.5799203329952434,
+          "seconds_per_page": 1.5799203329952434,
+          "xml_well_formed": true,
+          "markdown_chars": 386,
+          "heading_count": 0,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        },
+        {
+          "document_id": "w3c-dummy",
+          "document": "w3c-dummy.pdf",
+          "doc_type": "pdf",
+          "pages": 1,
+          "runtime_seconds": 1.2213446670066332,
+          "seconds_per_page": 1.2213446670066332,
+          "xml_well_formed": true,
+          "markdown_chars": 17,
+          "heading_count": 1,
+          "chunk_count": 0,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "document_count": 3,
+        "success_rate": 1.0,
+        "median_seconds_per_page": 1.5799203329952434,
+        "xml_well_formed_rate": 1.0,
+        "median_markdown_chars": 386,
+        "median_heading_count": 1,
+        "median_chunk_count": 0
+      },
+      "by_doc_type": {
+        "pdf": {
+          "document_count": 3,
+          "success_rate": 1.0,
+          "median_seconds_per_page": 1.5799203329952434,
+          "xml_well_formed_rate": 1.0,
+          "median_markdown_chars": 386,
+          "median_heading_count": 1,
+          "median_chunk_count": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "document_id": "attention-is-all-you-need",
+      "path": "benchmarks/datasets/pdfs/attention-is-all-you-need.pdf",
+      "doc_type": "pdf",
+      "pages": 15,
+      "labels": {},
+      "source": "public"
+    },
+    {
+      "document_id": "orimi-test",
+      "path": "benchmarks/datasets/pdfs/orimi-test.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "public"
+    },
+    {
+      "document_id": "w3c-dummy",
+      "path": "benchmarks/datasets/pdfs/w3c-dummy.pdf",
+      "doc_type": "pdf",
+      "pages": 1,
+      "labels": {},
+      "source": "public"
+    }
+  ]
+}

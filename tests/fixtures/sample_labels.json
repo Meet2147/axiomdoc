@@ -1,0 +1,13 @@
+{
+  "headings": [
+    { "text": "Project Overview", "level": 1 }
+  ],
+  "tables": [
+    {
+      "rows": [
+        ["Field", "Value"],
+        ["Status", "Active"]
+      ]
+    }
+  ]
+}

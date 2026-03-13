@@ -29,6 +29,25 @@ def build_index_manifest(document: CanonicalDocument) -> dict[str, Any]:
         if not block.text.strip():
             continue
 
+        if block.kind == "table" and isinstance(block.metadata.get("table_rows"), list):
+            for row_index, row in enumerate(block.metadata["table_rows"], start=1):
+                row_text = " | ".join(str(cell) for cell in row)
+                chunks.append(
+                    IndexChunk(
+                        chunk_id=f"{document.doc_id}-c{chunk_counter}",
+                        text=row_text,
+                        section_path=current_path.copy(),
+                        metadata={
+                            "kind": block.kind,
+                            "page_number": block.page_number,
+                            "block_id": block.block_id,
+                            "row_index": row_index,
+                        },
+                    )
+                )
+                chunk_counter += 1
+            continue
+
         chunks.append(
             IndexChunk(
                 chunk_id=f"{document.doc_id}-c{chunk_counter}",

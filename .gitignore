@@ -1,7 +1,16 @@
 .venv/
 __pycache__/
 benchmarks/__pycache__/
+.pytest_cache/
 *.pyc
+dist/
+Pdf/
+benchmarks/results/progress/
+benchmarks/results/shards/
+benchmarks/results/pdf-sample-10-axiomdoc.json
+benchmarks/results/pdf-sample-10-pdfplumber.json
+benchmarks/manifests/pdf-sample-10.json
+benchmarks/manifests/docling-shard01-first5.json
 
 sample.pdf
 sample.xml
